@@ -221,6 +221,21 @@ public class TicTacToe extends javax.swing.JFrame {
             jButton7.setBackground(Color.cyan);
             
         }
+        
+        if(!b1.isEmpty() && !b2.isEmpty() && !b3.isEmpty() && !b4.isEmpty() && !b5.isEmpty() && !b6.isEmpty()&& !b7.isEmpty() && !b8.isEmpty() && !b9.isEmpty()){
+            
+            JOptionPane.showMessageDialog(this,"Match is DRAW","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+            jButton1.setText(null);
+            jButton2.setText(null);
+            jButton3.setText(null);
+            jButton4.setText(null);
+            jButton5.setText(null);
+            jButton6.setText(null);
+            jButton7.setText(null);
+            jButton8.setText(null);
+            jButton9.setText(null);
+            
+        }
                 
     }
 
